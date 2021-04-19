@@ -13,8 +13,8 @@
 - เขียน javascript อย่างง่ายเพื่อหา source url ของรูปในหน้า index และแสดงผลตาม example หรือใกล้เคียง โดยพิจารณาจาก code 3 function
   - function ในการ query dom เพื่อหา source set
   - function ในการ normalize result เพื่อให้ผลลัพธ์ตามที่โจทย์ต้องการ (ดูจากตัวอย่าง result ด้านล่าง) (+3)
-  - function พิเศษ ที่ช่วยกรองความละเอียดที่เหมาะสมกับขนาดของ client window width อาทิเช่น
-    - เมื่อ client เข้ามาด้วย width 320px result ที่ได้จาก function นี้จะกรองเฉพาะ width ของรูปที่ใกล้เคียงเท่านั้น
+  - function พิเศษ ที่ช่วยกรองความละเอียดที่เหมาะสมกับขนาดของ client window width (+3) อาทิเช่น
+    - เมื่อ client width = 320px, result ที่ได้จาก function นี้จะกรอง width ของรูปที่เหมาะสมกับขนาดให้ ถ้าหากรูปนั้นไม่มีขนาดที่เทียบเท่า ให้ใช้ขนาดที่ใกล้เคียงแทน
 
 
 ### example result
